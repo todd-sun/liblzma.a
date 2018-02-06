@@ -12,3 +12,11 @@ platform：
 compiler:
 
   arm-none-linux-gnueabi-gcc or gcc
+  
+make:
+  
+  cd C/Util/Lzma && make clean && make
+  
+useful files:
+  
+  C/Util/Lzma/liblzma.a & C/Util/Lzma/lzma.h
